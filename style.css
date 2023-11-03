@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+  padding: 0 50px 0 50px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img {
+  width: 32px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.header p {
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.bannerrosa {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/shiba.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bannerrosa h1 {
+  text-align: center;
+  width: 500px;
+  font-size: 60px;
+  color: white;
+  margin-top: 12.5rem;
+}
+
+.patinhadog {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 2rem;
+}
+
+.patinhadog img {
+  width: 50%;
+}
+.dogcaramelo {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/Interseção 16.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding-left: 3rem;
+
+  color: #3a342f;
+  border: solid black;
+}
+
+.dogcaramelo button {
+  color: #f4f2f3;
+  background: #3a342f 0% 0% no-repeat padding-box;
+}
+
+.conteudo {
+  width: 40%;
+
+  border: solid pink;
+}
+
+.conteudo h2 {
+  font-size: 60px;
+  font-size: bold;
+  font-family: "Roboto Serif, serif";
+}
+
+.conteudo p {
+  font-size: 30px;
+
+  font: normal normal normal 27px/42px Roboto;
+  letter-spacing: 0px;
+}
+
+.conteudo button {
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-top: 2rem;
+  border: none;
+}
+
+.minidoguinho {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/Grupo\ 480.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  color: #fff;
+
+  padding-right: 3rem;
+}
+
+.minidoguinho button {
+  color: #000;
+  background: #fff 0% 0% no-repeat padding-box;
+}
+
+.apoio {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.apoio table {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.apoio td {
+  padding: 10px;
+}
+
+.apoio-text {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+  color: #fd6a9a;
+}
+.banner-rosa {
+  background-color: #eb4a7b;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.banner-rosa h3 {
+  font-size: 24px;
+}
+
+.banner-rosa ul {
+  list-style: none;
+  padding: 0;
+}
+
+.banner-rosa li {
+  margin: 10px 0;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: bold;
+}
+
+.banner-rosa2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50vh;
+  background: #eb4a7b;
+  opacity: 1;
+  padding: 0 50px;
+  color: white;
+  text-align: center;
+  font-family: "Roboto Serif", serif;
+}
+
+.banner-rosa2 h4 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: "Roboto Serif", serif;
+}
+
+.banner-rosa2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.banner-rosa2 ul li {
+  margin: 5px 0;
+  font-size: 18px;
+  font-family: "Roboto Serif", serif;
+}
